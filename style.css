@@ -1,0 +1,17 @@
+* Reset e Base */
+/* Remove margens e paddings padrão de todos os elementos para um reset consistente */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define a fonte, fundo gradiente, cor do texto, altura mínima e padding para o corpo da página */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: linear-gradient(135deg, #5A60E8, #b25565);
+    color: #2d2d2d;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
+}
